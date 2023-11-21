@@ -12,8 +12,8 @@ print("Hello, World!")
 
 let peteTamagotchi = Tamagotchi(name: "Pete")
 
-print(peteTamagotchi.happiness)
-peteTamagotchi.happiness -= 1
-print(peteTamagotchi.happiness)
+print(peteTamagotchi.happyHearts)
+peteTamagotchi.happyHearts -= 1
+print(peteTamagotchi.happyHearts)
 peteTamagotchi.eatSnack()
 print(peteTamagotchi.weight)
