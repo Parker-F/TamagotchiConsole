@@ -46,4 +46,7 @@ class Tamagotchi {
         pooOnScreen = true
         weight -= 2
     }
+    func die() {
+        alive = false
+    }
 }
